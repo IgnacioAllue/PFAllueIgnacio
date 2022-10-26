@@ -357,6 +357,81 @@ footer{
         float: left;
         font-size: 18px;
     }
+
+    .description{
+        color: aliceblue;
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 1px;
+        float: left;
+        background-color: rgba(4, 0, 26, 0.5);
+        padding: 10px;
+        width: 100%;
+        height: auto;
+        margin-top: 5px;
+        margin-left: 0%;
+        font-size: 16px;
+    }
+    
+    .galery1{
+        background-image: url(img/alpine.jpg);
+        height: 100px;
+        width: 140px;
+        background-size: cover;
+        float: left;
+        margin-top: 5%;
+        margin-right: 0%;
+        border: solid #fff;
+    }
+    .galery2{
+        background-image: url(img/beach.jpg);
+        height: 100px;
+        width: 140px;
+        background-size: cover;
+        float: left;
+        margin-top: 5%;
+        margin-left: 3%;
+        border: solid #fff;
+    }
+    .galery3{
+        background-image: url(img/castle.jpg);
+        height: 100px;
+        width: 140px;
+        background-size: cover;
+        float: left;
+        margin-top: 5%;
+        margin-right: 2%;
+        border: solid #fff;
+    }
+    .galery4{
+        background-image: url(img/river.jpg);
+        height: 100px;
+        width: 140px;
+        background-size: cover;
+        float: right;
+        margin-top: 5%;
+        margin-left: 0%;
+        border: solid #fff;
+    }
+    .galery5{
+        background-image: url(img/park.jpg);
+        height: 100px;
+        width: 140px;
+        background-size: cover;
+        float: right;
+        margin-top: 5%;
+        margin-right: 5%;
+        border: solid #fff;
+    }
+    .galery6{
+        background-image: url(img/road.jpg);
+        height: 100px;
+        width: 140px;
+        background-size: cover;
+        float: right;
+        margin-top: 5%;
+        margin-left: 0%;
+        border: solid #fff;
+    }
 }
 
 @media only screen and (min-width:480px){
@@ -404,6 +479,81 @@ footer{
         margin-left: 60px;
         margin-top: 30px;
         float: left;
+    }
+
+    .description{
+        color: aliceblue;
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 1px;
+        float: left;
+        background-color: rgba(4, 0, 26, 0.5);
+        padding: 20px;
+        width: 100%;
+        height: auto;
+        margin-top: 5px;
+        margin-left: 0%;
+        font-size: 16px;
+    }
+    
+    .galery1{
+        background-image: url(img/alpine.jpg);
+        height: 150px;
+        width: 200px;
+        background-size: cover;
+        float: left;
+        margin-top: 5%;
+        margin-left: 5%;
+        border: solid #fff;
+    }
+    .galery2{
+        background-image: url(img/beach.jpg);
+        height: 150px;
+        width: 200px;
+        background-size: cover;
+        float: left;
+        margin-top: 5%;
+        margin-left: 5%;
+        border: solid #fff;
+    }
+    .galery3{
+        background-image: url(img/castle.jpg);
+        height: 150px;
+        width: 200px;
+        background-size: cover;
+        float: left;
+        margin-top: 5%;
+        margin-left: 5%;
+        border: solid #fff;
+    }
+    .galery4{
+        background-image: url(img/river.jpg);
+        height: 150px;
+        width: 200px;
+        background-size: cover;
+        float: right;
+        margin-top: 5%;
+        margin-right: 7%;
+        border: solid #fff;
+    }
+    .galery5{
+        background-image: url(img/park.jpg);
+        height: 150px;
+        width: 200px;
+        background-size: cover;
+        float: right;
+        margin-top: 5%;
+        margin-right: 7%;
+        border: solid #fff;
+    }
+    .galery6{
+        background-image: url(img/road.jpg);
+        height: 150px;
+        width: 200px;
+        background-size: cover;
+        float: right;
+        margin-top: 5%;
+        margin-right: 5%;
+        border: solid #fff;
     }
 }
 
@@ -453,6 +603,82 @@ footer{
         margin-top: 30px;
         float: left;
     }
+
+    .description{
+        color: aliceblue;
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 1px;
+        float: left;
+        background-color: rgba(4, 0, 26, 0.5);
+        padding: 20px;
+        width: 100%;
+        height: auto;
+        margin-top: 5px;
+        margin-left: 0%;
+        font-size: 16px;
+    }
+    
+    .galery1{
+        background-image: url(img/alpine.jpg);
+        height: 175px;
+        width: 300px;
+        background-size: cover;
+        float: left;
+        margin-top: 5%;
+        margin-left: 5%;
+        border: solid #fff;
+    }
+    .galery2{
+        background-image: url(img/beach.jpg);
+        height: 175px;
+        width: 300px;
+        background-size: cover;
+        float: left;
+        margin-top: 5%;
+        margin-left: 5%;
+        border: solid #fff;
+    }
+    .galery3{
+        background-image: url(img/castle.jpg);
+        height: 175px;
+        width: 300px;
+        background-size: cover;
+        float: left;
+        margin-top: 5%;
+        margin-left: 5%;
+        border: solid #fff;
+    }
+    .galery4{
+        background-image: url(img/river.jpg);
+        height: 175px;
+        width: 300px;
+        background-size: cover;
+        float: right;
+        margin-top: 5%;
+        margin-right: 7%;
+        border: solid #fff;
+    }
+    .galery5{
+        background-image: url(img/park.jpg);
+        height: 175px;
+        width: 300px;
+        background-size: cover;
+        float: right;
+        margin-top: 5%;
+        margin-right: 7%;
+        border: solid #fff;
+    }
+    .galery6{
+        background-image: url(img/road.jpg);
+        height: 175px;
+        width: 300px;
+        background-size: cover;
+        float: right;
+        margin-top: 5%;
+        margin-right: 5%;
+        border: solid #fff;
+    }
+    
 }
 
 @media only screen and (min-width:1024px){
@@ -501,6 +727,81 @@ footer{
         margin-top: 90px;
         float: left;
     }
+    .description{
+        color: aliceblue;
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 1px;
+        float: left;
+        background-color: rgba(4, 0, 26, 0.5);
+        padding: 20px;
+        width: 60%;
+        height: auto;
+        margin-top: 55px;
+        margin-left: 25%;
+        font-size: 16px;
+    }
+    
+    .galery1{
+        background-image: url(img/alpine.jpg);
+        height: 25%;
+        width: 25%;
+        background-size: cover;
+        float: left;
+        margin-top: 5%;
+        margin-left: 5%;
+        border: solid #fff;
+    }
+    .galery2{
+        background-image: url(img/beach.jpg);
+        height: 25%;
+        width: 25%;
+        background-size: cover;
+        float: left;
+        margin-top: 5%;
+        margin-left: 5%;
+        border: solid #fff;
+    }
+    .galery3{
+        background-image: url(img/castle.jpg);
+        height: 25%;
+        width: 25%;
+        background-size: cover;
+        float: left;
+        margin-top: 5%;
+        margin-left: 5%;
+        border: solid #fff;
+    }
+    .galery4{
+        background-image: url(img/river.jpg);
+        height: 25%;
+        width: 25%;
+        background-size: cover;
+        float: right;
+        margin-top: 5%;
+        margin-right: 5%;
+        border: solid #fff;
+    }
+    .galery5{
+        background-image: url(img/park.jpg);
+        height: 25%;
+        width: 25%;
+        background-size: cover;
+        float: right;
+        margin-top: 5%;
+        margin-right: 5%;
+        border: solid #fff;
+    }
+    .galery6{
+        background-image: url(img/road.jpg);
+        height: 25%;
+        width: 25%;
+        background-size: cover;
+        float: right;
+        margin-top: 5%;
+        margin-right: 5%;
+        border: solid #fff;
+    }
+    
 }
 
 @media only screen and (min-width:1520px){
@@ -549,4 +850,80 @@ footer{
         margin-top: 60px;
         float: left;
     }
+
+    .description{
+        color: aliceblue;
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 1px;
+        float: left;
+        background-color: rgba(4, 0, 26, 0.5);
+        padding: 20px;
+        width: 60%;
+        height: auto;
+        margin-top: 55px;
+        margin-left: 25%;
+        font-size: 16px;
+    }
+    
+    .galery1{
+        background-image: url(img/alpine.jpg);
+        height: 25%;
+        width: 25%;
+        background-size: cover;
+        float: left;
+        margin-top: 5%;
+        margin-left: 5%;
+        border: solid #fff;
+    }
+    .galery2{
+        background-image: url(img/beach.jpg);
+        height: 25%;
+        width: 25%;
+        background-size: cover;
+        float: left;
+        margin-top: 5%;
+        margin-left: 5%;
+        border: solid #fff;
+    }
+    .galery3{
+        background-image: url(img/castle.jpg);
+        height: 25%;
+        width: 25%;
+        background-size: cover;
+        float: left;
+        margin-top: 5%;
+        margin-left: 5%;
+        border: solid #fff;
+    }
+    .galery4{
+        background-image: url(img/river.jpg);
+        height: 25%;
+        width: 25%;
+        background-size: cover;
+        float: right;
+        margin-top: 5%;
+        margin-right: 5%;
+        border: solid #fff;
+    }
+    .galery5{
+        background-image: url(img/park.jpg);
+        height: 25%;
+        width: 25%;
+        background-size: cover;
+        float: right;
+        margin-top: 5%;
+        margin-right: 5%;
+        border: solid #fff;
+    }
+    .galery6{
+        background-image: url(img/road.jpg);
+        height: 25%;
+        width: 25%;
+        background-size: cover;
+        float: right;
+        margin-top: 5%;
+        margin-right: 5%;
+        border: solid #fff;
+    }
+    
 }
