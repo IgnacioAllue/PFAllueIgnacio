@@ -42,6 +42,7 @@ header{
 .barra a:hover{
     color: aliceblue;
     font-size: 40px;
+    transition: all 1s;
 }
 
 main{
@@ -171,64 +172,48 @@ footer{
     font-size: 16px;
 }
 
+.galery{
+    height: 730px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 350px);
+}
+
+.item{
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 75%;
+}
+
 .galery1{
     background-image: url(img/alpine.jpg);
-    height: 25%;
-    width: 25%;
     background-size: cover;
-    float: left;
-    margin-top: 5%;
-    margin-left: 5%;
     border: solid #fff;
 }
 .galery2{
     background-image: url(img/beach.jpg);
-    height: 25%;
-    width: 25%;
     background-size: cover;
-    float: left;
-    margin-top: 5%;
-    margin-left: 5%;
     border: solid #fff;
 }
 .galery3{
     background-image: url(img/castle.jpg);
-    height: 25%;
-    width: 25%;
     background-size: cover;
-    float: left;
-    margin-top: 5%;
-    margin-left: 5%;
     border: solid #fff;
 }
 .galery4{
     background-image: url(img/river.jpg);
-    height: 25%;
-    width: 25%;
     background-size: cover;
-    float: right;
-    margin-top: 5%;
-    margin-right: 5%;
     border: solid #fff;
 }
 .galery5{
     background-image: url(img/park.jpg);
-    height: 25%;
-    width: 25%;
     background-size: cover;
-    float: right;
-    margin-top: 5%;
-    margin-right: 5%;
     border: solid #fff;
 }
 .galery6{
     background-image: url(img/road.jpg);
-    height: 25%;
-    width: 25%;
     background-size: cover;
-    float: right;
-    margin-top: 5%;
-    margin-right: 5%;
     border: solid #fff;
 }
 
@@ -377,66 +362,51 @@ footer{
         font-size: 16px;
     }
     
+    .galery{
+        height: 530px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 160px);
+    }
+    
+    .item{
+        margin-top: 10px;
+        margin-left: 5px;
+        width: 95%;
+    }
+    
     .galery1{
         background-image: url(img/alpine.jpg);
-        height: 100px;
-        width: 140px;
         background-size: cover;
-        float: left;
-        margin-top: 5%;
-        margin-right: 0%;
         border: solid #fff;
     }
     .galery2{
         background-image: url(img/beach.jpg);
-        height: 100px;
-        width: 140px;
         background-size: cover;
-        float: left;
-        margin-top: 5%;
-        margin-left: 3%;
         border: solid #fff;
     }
     .galery3{
         background-image: url(img/castle.jpg);
-        height: 100px;
-        width: 140px;
         background-size: cover;
-        float: left;
-        margin-top: 5%;
-        margin-right: 2%;
         border: solid #fff;
     }
     .galery4{
         background-image: url(img/river.jpg);
-        height: 100px;
-        width: 140px;
         background-size: cover;
-        float: right;
-        margin-top: 5%;
-        margin-left: 0%;
         border: solid #fff;
     }
     .galery5{
         background-image: url(img/park.jpg);
-        height: 100px;
-        width: 140px;
         background-size: cover;
-        float: right;
-        margin-top: 5%;
-        margin-right: 5%;
         border: solid #fff;
     }
     .galery6{
         background-image: url(img/road.jpg);
-        height: 100px;
-        width: 140px;
         background-size: cover;
-        float: right;
-        margin-top: 5%;
-        margin-left: 0%;
         border: solid #fff;
     }
+    
 }
 
 @media only screen and (min-width:480px){
@@ -504,66 +474,51 @@ footer{
         font-size: 16px;
     }
     
+    .galery{
+        height: 730px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 210px);
+    }
+    
+    .item{
+        margin-top: 10px;
+        margin-left: 30px;
+        width: 75%;
+    }
+    
     .galery1{
         background-image: url(img/alpine.jpg);
-        height: 150px;
-        width: 200px;
         background-size: cover;
-        float: left;
-        margin-top: 5%;
-        margin-left: 5%;
         border: solid #fff;
     }
     .galery2{
         background-image: url(img/beach.jpg);
-        height: 150px;
-        width: 200px;
         background-size: cover;
-        float: left;
-        margin-top: 5%;
-        margin-left: 5%;
         border: solid #fff;
     }
     .galery3{
         background-image: url(img/castle.jpg);
-        height: 150px;
-        width: 200px;
         background-size: cover;
-        float: left;
-        margin-top: 5%;
-        margin-left: 5%;
         border: solid #fff;
     }
     .galery4{
         background-image: url(img/river.jpg);
-        height: 150px;
-        width: 200px;
         background-size: cover;
-        float: right;
-        margin-top: 5%;
-        margin-right: 7%;
         border: solid #fff;
     }
     .galery5{
         background-image: url(img/park.jpg);
-        height: 150px;
-        width: 200px;
         background-size: cover;
-        float: right;
-        margin-top: 5%;
-        margin-right: 7%;
         border: solid #fff;
     }
     .galery6{
         background-image: url(img/road.jpg);
-        height: 150px;
-        width: 200px;
         background-size: cover;
-        float: right;
-        margin-top: 5%;
-        margin-right: 5%;
         border: solid #fff;
     }
+    
 }
 
 @media only screen and (min-width:720px){
@@ -631,66 +586,51 @@ footer{
         font-size: 16px;
     }
     
+    .galery{
+        height: 730px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 225px);
+    }
+    
+    .item{
+        margin-top: 12px;
+        margin-left: 50px;
+        width: 75%;
+    }
+    
     .galery1{
         background-image: url(img/alpine.jpg);
-        height: 175px;
-        width: 300px;
         background-size: cover;
-        float: left;
-        margin-top: 5%;
-        margin-left: 5%;
         border: solid #fff;
     }
     .galery2{
         background-image: url(img/beach.jpg);
-        height: 175px;
-        width: 300px;
         background-size: cover;
-        float: left;
-        margin-top: 5%;
-        margin-left: 5%;
         border: solid #fff;
     }
     .galery3{
         background-image: url(img/castle.jpg);
-        height: 175px;
-        width: 300px;
         background-size: cover;
-        float: left;
-        margin-top: 5%;
-        margin-left: 5%;
         border: solid #fff;
     }
     .galery4{
         background-image: url(img/river.jpg);
-        height: 175px;
-        width: 300px;
         background-size: cover;
-        float: right;
-        margin-top: 5%;
-        margin-right: 7%;
         border: solid #fff;
     }
     .galery5{
         background-image: url(img/park.jpg);
-        height: 175px;
-        width: 300px;
         background-size: cover;
-        float: right;
-        margin-top: 5%;
-        margin-right: 7%;
         border: solid #fff;
     }
     .galery6{
         background-image: url(img/road.jpg);
-        height: 175px;
-        width: 300px;
         background-size: cover;
-        float: right;
-        margin-top: 5%;
-        margin-right: 5%;
         border: solid #fff;
     }
+    
     
 }
 
@@ -758,66 +698,51 @@ footer{
         font-size: 16px;
     }
     
+    .galery{
+        height: 730px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(2, 300px);
+    }
+    
+    .item{
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 95%;
+    }
+    
     .galery1{
         background-image: url(img/alpine.jpg);
-        height: 25%;
-        width: 25%;
         background-size: cover;
-        float: left;
-        margin-top: 5%;
-        margin-left: 5%;
         border: solid #fff;
     }
     .galery2{
         background-image: url(img/beach.jpg);
-        height: 25%;
-        width: 25%;
         background-size: cover;
-        float: left;
-        margin-top: 5%;
-        margin-left: 5%;
         border: solid #fff;
     }
     .galery3{
         background-image: url(img/castle.jpg);
-        height: 25%;
-        width: 25%;
         background-size: cover;
-        float: left;
-        margin-top: 5%;
-        margin-left: 5%;
         border: solid #fff;
     }
     .galery4{
         background-image: url(img/river.jpg);
-        height: 25%;
-        width: 25%;
         background-size: cover;
-        float: right;
-        margin-top: 5%;
-        margin-right: 5%;
         border: solid #fff;
     }
     .galery5{
         background-image: url(img/park.jpg);
-        height: 25%;
-        width: 25%;
         background-size: cover;
-        float: right;
-        margin-top: 5%;
-        margin-right: 5%;
         border: solid #fff;
     }
     .galery6{
         background-image: url(img/road.jpg);
-        height: 25%;
-        width: 25%;
         background-size: cover;
-        float: right;
-        margin-top: 5%;
-        margin-right: 5%;
         border: solid #fff;
     }
+    
     
 }
 
@@ -886,65 +811,50 @@ footer{
         font-size: 16px;
     }
     
+    .galery{
+        height: 730px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(2, 350px);
+    }
+    
+    .item{
+        margin-top: 10px;
+        margin-left: 20px;
+        width: 85%;
+    }
+    
     .galery1{
         background-image: url(img/alpine.jpg);
-        height: 25%;
-        width: 25%;
         background-size: cover;
-        float: left;
-        margin-top: 5%;
-        margin-left: 5%;
         border: solid #fff;
     }
     .galery2{
         background-image: url(img/beach.jpg);
-        height: 25%;
-        width: 25%;
         background-size: cover;
-        float: left;
-        margin-top: 5%;
-        margin-left: 5%;
         border: solid #fff;
     }
     .galery3{
         background-image: url(img/castle.jpg);
-        height: 25%;
-        width: 25%;
         background-size: cover;
-        float: left;
-        margin-top: 5%;
-        margin-left: 5%;
         border: solid #fff;
     }
     .galery4{
         background-image: url(img/river.jpg);
-        height: 25%;
-        width: 25%;
         background-size: cover;
-        float: right;
-        margin-top: 5%;
-        margin-right: 5%;
         border: solid #fff;
     }
     .galery5{
         background-image: url(img/park.jpg);
-        height: 25%;
-        width: 25%;
         background-size: cover;
-        float: right;
-        margin-top: 5%;
-        margin-right: 5%;
         border: solid #fff;
     }
     .galery6{
         background-image: url(img/road.jpg);
-        height: 25%;
-        width: 25%;
         background-size: cover;
-        float: right;
-        margin-top: 5%;
-        margin-right: 5%;
         border: solid #fff;
     }
+    
     
 }
