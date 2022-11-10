@@ -1,130 +1,721 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-header{
-    height: 90px;
-    width: 100%;
-    background-color: black;
-    font-family: 'Anton', sans-serif;
-    color: aliceblue;
-    padding: 8px;
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.logo{
+header {
+  height: 90px;
+  width: 100%;
+  background-color: black;
+  font-family: "Anton", sans-serif;
+  color: aliceblue;
+  padding: 8px;
+}
+
+.logo {
+  float: left;
+  font-size: 50px;
+  margin-left: 30px;
+}
+
+.barra {
+  float: right;
+  font-size: 35px;
+  padding: 10px;
+}
+
+.barra ul {
+  list-style: none;
+}
+
+.barra ul li {
+  display: inline-block;
+}
+
+.barra a {
+  text-decoration: none;
+  color: greenyellow;
+}
+
+.barra a:hover {
+  color: aliceblue;
+  font-size: 40px;
+  transition: all 1s;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/fondo.jpg);
+  background-position: center;
+  background-size: auto;
+}
+
+.call {
+  color: aliceblue;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 1px;
+  float: right;
+  background-color: rgba(4, 0, 26, 0.5);
+  padding: 30px;
+  width: 60%;
+  margin-top: 125px;
+  font-size: 18px;
+}
+
+.promo1 {
+  height: 300px;
+  width: 450px;
+  background-image: url(img/promo1.jpg);
+  background-size: cover;
+  margin-left: 60px;
+  float: left;
+  margin-top: 60px;
+  border: solid #fff;
+}
+
+.promo2 {
+  height: 300px;
+  width: 450px;
+  background-image: url(img/promo2.jpg);
+  background-size: cover;
+  border: solid #fff;
+  margin-left: 60px;
+  margin-top: 30px;
+  float: left;
+}
+
+.mensaje {
+  text-align: center;
+  font-size: 16px;
+  background-color: wheat;
+}
+
+.mensaje span a {
+  text-decoration: none;
+  color: green;
+}
+
+footer {
+  height: 95px;
+  width: 100%;
+  background-color: black;
+  font-size: 40px;
+  font-family: "Anton", sans-serif;
+  color: aliceblue;
+  padding: 20px;
+}
+
+.copyright {
+  float: left;
+  font-size: 20px;
+}
+
+.redes {
+  float: right;
+  margin-left: 30px;
+}
+
+.redes a {
+  color: #fff;
+}
+
+.info {
+  color: aliceblue;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 1px;
+  float: left;
+  background-color: rgba(4, 0, 26, 0.5);
+  padding: 20px;
+  width: 60%;
+  height: auto;
+  margin-top: 55px;
+  margin-left: 25%;
+  font-size: 18px;
+}
+
+.plane {
+  height: 45%;
+  width: 45%;
+  background-image: url(img/plane.jpg);
+  background-size: cover;
+  margin-left: 60px;
+  float: left;
+  margin-top: 70px;
+  border: solid #fff;
+}
+
+.ship {
+  height: 45%;
+  width: 45%;
+  background-image: url(img/ship.jpg);
+  background-size: cover;
+  margin-right: 60px;
+  float: right;
+  margin-top: 70px;
+  border: solid #fff;
+}
+
+.description {
+  color: aliceblue;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 1px;
+  float: left;
+  background-color: rgba(4, 0, 26, 0.5);
+  padding: 20px;
+  width: 60%;
+  height: auto;
+  margin-top: 55px;
+  margin-left: 25%;
+  font-size: 16px;
+}
+
+.galery {
+  height: 730px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(2, 350px);
+}
+
+.item {
+  margin-top: 10px;
+  margin-left: 50px;
+  width: 75%;
+}
+
+.galery1 {
+  background-image: url(img/alpine.jpg);
+  background-size: cover;
+  border: solid #fff;
+}
+
+.galery2 {
+  background-image: url(img/beach.jpg);
+  background-size: cover;
+  border: solid #fff;
+}
+
+.galery3 {
+  background-image: url(img/castle.jpg);
+  background-size: cover;
+  border: solid #fff;
+}
+
+.galery4 {
+  background-image: url(img/river.jpg);
+  background-size: cover;
+  border: solid #fff;
+}
+
+.galery5 {
+  background-image: url(img/park.jpg);
+  background-size: cover;
+  border: solid #fff;
+}
+
+.galery6 {
+  background-image: url(img/road.jpg);
+  background-size: cover;
+  border: solid #fff;
+}
+
+.next {
+  color: aliceblue;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 1px;
+  float: left;
+  background-color: rgba(4, 0, 26, 0.5);
+  padding: 20px;
+  width: 55%;
+  height: auto;
+  margin-top: 55px;
+  margin-left: 25%;
+  font-size: 16px;
+}
+
+.map {
+  background-image: url(img/map.jpg);
+  height: 65%;
+  width: 65%;
+  background-size: cover;
+  float: right;
+  margin-top: 2%;
+  margin-right: 15%;
+  border: solid #fff;
+}
+
+.support {
+  color: aliceblue;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 1px;
+  float: left;
+  background-color: rgba(4, 0, 26, 0.5);
+  padding: 20px;
+  width: 55%;
+  height: auto;
+  margin-top: 55px;
+  margin-left: 25%;
+  font-size: 16px;
+}
+
+.forms {
+  color: aliceblue;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 1px;
+  float: left;
+  background-color: rgba(4, 0, 26, 0.5);
+  padding: 20px;
+  width: 30%;
+  height: auto;
+  margin-top: 55px;
+  margin-left: 15%;
+  font-size: 16px;
+  display: inline;
+}
+
+.africa {
+  height: 50%;
+  width: 50%;
+  background-image: url(img/africa.jpg);
+  background-size: cover;
+  border: solid #fff;
+  margin-right: 60px;
+  margin-top: 85px;
+  float: right;
+}
+
+@media only screen and (min-width: 320px) {
+  .logo {
     float: left;
-    font-size: 50px;
-    margin-left: 30px;
-}
-
-.barra{
+    font-size: 25px;
+    margin-left: 10px;
+  }
+  .barra {
     float: right;
-    font-size: 35px;
+    font-size: 15px;
     padding: 10px;
-}
-
-.barra ul{
-    list-style: none;
-}
-
-.barra ul li{
-    display: inline-block;
-}
-
-.barra a{
-    text-decoration: none;
-    color: greenyellow;
-}
-
-.barra a:hover{
+  }
+  .barra a:hover {
+    font-size: 16px;
+  }
+  .call {
     color: aliceblue;
-    font-size: 40px;
-    transition: all 1s;
-}
-
-main{
-    width: 100%;
-    height: 100vh;
-    background-image: url(img/fondo.jpg);
-    background-position: center;
-    background-size: auto;
-}
-
-.call{
-    color: aliceblue;
-    font-family: 'Anton', sans-serif;
+    font-family: "Anton", sans-serif;
     letter-spacing: 1px;
     float: right;
     background-color: rgba(4, 0, 26, 0.5);
-    padding: 30px;
-    width: 60%;
-    margin-top: 125px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 25px;
     font-size: 18px;
+  }
+  .promo1 {
+    height: 175px;
+    width: 300px;
+    background-image: url(img/promo1.jpg);
+    background-size: cover;
+    margin-left: 10px;
+    float: left;
+    margin-top: 20px;
+    border: solid #fff;
+  }
+  .promo2 {
+    height: 175px;
+    width: 300px;
+    background-image: url(img/promo2.jpg);
+    background-size: cover;
+    border: solid #fff;
+    margin-left: 10px;
+    margin-top: 20px;
+    float: left;
+  }
+  footer {
+    height: 95px;
+    width: 100%;
+    background-color: black;
+    font-size: 18px;
+    font-family: "Anton", sans-serif;
+    color: aliceblue;
+    padding: 20px;
+  }
+  .copyright {
+    float: left;
+    font-size: 18px;
+  }
+  .info {
+    color: aliceblue;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+    float: right;
+    background-color: rgba(4, 0, 26, 0.5);
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    height: auto;
+    font-size: 18px;
+  }
+  .plane {
+    height: 20%;
+    width: 100%;
+    background-image: url(img/plane.jpg);
+    background-size: cover;
+    margin-left: 0px;
+    float: left;
+    margin-top: 10px;
+    border: solid #fff;
+  }
+  .ship {
+    height: 20%;
+    width: 100%;
+    background-image: url(img/ship.jpg);
+    background-size: cover;
+    margin-right: 0px;
+    float: right;
+    margin-top: 10px;
+    border: solid #fff;
+  }
+  .description {
+    color: aliceblue;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+    float: left;
+    background-color: rgba(4, 0, 26, 0.5);
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 0%;
+    font-size: 16px;
+  }
+  .galery {
+    height: 530px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 160px);
+  }
+  .item {
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 95%;
+  }
+  .galery1 {
+    background-image: url(img/alpine.jpg);
+    background-size: cover;
+    border: solid #fff;
+  }
+  .galery2 {
+    background-image: url(img/beach.jpg);
+    background-size: cover;
+    border: solid #fff;
+  }
+  .galery3 {
+    background-image: url(img/castle.jpg);
+    background-size: cover;
+    border: solid #fff;
+  }
+  .galery4 {
+    background-image: url(img/river.jpg);
+    background-size: cover;
+    border: solid #fff;
+  }
+  .galery5 {
+    background-image: url(img/park.jpg);
+    background-size: cover;
+    border: solid #fff;
+  }
+  .galery6 {
+    background-image: url(img/road.jpg);
+    background-size: cover;
+    border: solid #fff;
+  }
 }
-
-.promo1{
-    height: 300px;
-    width: 450px;
+@media only screen and (min-width: 480px) {
+  .logo {
+    float: left;
+    font-size: 35px;
+    margin-left: 10px;
+  }
+  .barra {
+    float: right;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .barra a:hover {
+    font-size: 22px;
+  }
+  .call {
+    color: aliceblue;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+    float: right;
+    background-color: rgba(4, 0, 26, 0.5);
+    padding: 10px;
+    width: 100%;
+    margin-top: 25px;
+    font-size: 18px;
+  }
+  .promo1 {
+    height: 175px;
+    width: 350px;
     background-image: url(img/promo1.jpg);
     background-size: cover;
     margin-left: 60px;
     float: left;
     margin-top: 60px;
     border: solid #fff;
-}
-
-.promo2{
-    height: 300px;
-    width: 450px;
+  }
+  .promo2 {
+    height: 175px;
+    width: 350px;
     background-image: url(img/promo2.jpg);
     background-size: cover;
     border: solid #fff;
     margin-left: 60px;
     margin-top: 30px;
     float: left;
-}
-
-.mensaje{
-    text-align: center;
-    font-size: 16px;
-    background-color: wheat;
-}
-
-.mensaje span a{
-    text-decoration: none;
-    color: green;
-}
-
-footer{
-    height: 95px;
-    width: 100%;
-    background-color: black;
-    font-size: 40px;
-    font-family: 'Anton', sans-serif;
+  }
+  .info {
     color: aliceblue;
-    padding: 20px;
-}
-
-.copyright{
-    float: left;
-    font-size: 20px;
-}
-
-.redes{
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
     float: right;
-    margin-left: 30px;
-}
-
-.redes a{
-    color: #fff;
-}
-
-.info{
+    background-color: rgba(4, 0, 26, 0.5);
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0;
+    height: auto;
+    font-size: 18px;
+  }
+  .plane {
+    height: 30%;
+    width: 90%;
+    background-image: url(img/plane.jpg);
+    background-size: cover;
+    margin-left: 25px;
+    float: left;
+    margin-top: 10px;
+    border: solid #fff;
+  }
+  .ship {
+    height: 30%;
+    width: 90%;
+    background-image: url(img/ship.jpg);
+    background-size: cover;
+    margin-right: 25px;
+    float: right;
+    margin-top: 10px;
+    border: solid #fff;
+  }
+  .description {
     color: aliceblue;
-    font-family: 'Anton', sans-serif;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+    float: left;
+    background-color: rgba(4, 0, 26, 0.5);
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 0%;
+    font-size: 16px;
+  }
+  .galery {
+    height: 730px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 210px);
+  }
+  .item {
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 75%;
+  }
+  .galery1 {
+    background-image: url(img/alpine.jpg);
+    background-size: cover;
+    border: solid #fff;
+  }
+  .galery2 {
+    background-image: url(img/beach.jpg);
+    background-size: cover;
+    border: solid #fff;
+  }
+  .galery3 {
+    background-image: url(img/castle.jpg);
+    background-size: cover;
+    border: solid #fff;
+  }
+  .galery4 {
+    background-image: url(img/river.jpg);
+    background-size: cover;
+    border: solid #fff;
+  }
+  .galery5 {
+    background-image: url(img/park.jpg);
+    background-size: cover;
+    border: solid #fff;
+  }
+  .galery6 {
+    background-image: url(img/road.jpg);
+    background-size: cover;
+    border: solid #fff;
+  }
+}
+@media only screen and (min-width: 720px) {
+  .logo {
+    float: left;
+    font-size: 45px;
+    margin-left: 20px;
+  }
+  .barra {
+    float: right;
+    font-size: 30px;
+    padding: 15px;
+  }
+  .barra a:hover {
+    font-size: 35px;
+  }
+  .call {
+    color: aliceblue;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+    float: right;
+    background-color: rgba(4, 0, 26, 0.5);
+    padding: 10px;
+    width: 100%;
+    margin-top: 25px;
+    font-size: 18px;
+  }
+  .promo1 {
+    height: 225px;
+    width: 600px;
+    background-image: url(img/promo1.jpg);
+    background-size: cover;
+    margin-left: 60px;
+    float: left;
+    margin-top: 60px;
+    border: solid #fff;
+  }
+  .promo2 {
+    height: 225px;
+    width: 600px;
+    background-image: url(img/promo2.jpg);
+    background-size: cover;
+    border: solid #fff;
+    margin-left: 60px;
+    margin-top: 30px;
+    float: left;
+  }
+  .info {
+    color: aliceblue;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+    float: right;
+    background-color: rgba(4, 0, 26, 0.5);
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0;
+    height: auto;
+    font-size: 18px;
+  }
+  .plane {
+    height: 35%;
+    width: 90%;
+    background-image: url(img/plane.jpg);
+    background-size: cover;
+    margin-left: 35px;
+    float: left;
+    margin-top: 10px;
+    border: solid #fff;
+  }
+  .ship {
+    height: 35%;
+    width: 90%;
+    background-image: url(img/ship.jpg);
+    background-size: cover;
+    margin-right: 35px;
+    float: right;
+    margin-top: 10px;
+    border: solid #fff;
+  }
+  .description {
+    color: aliceblue;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+    float: left;
+    background-color: rgba(4, 0, 26, 0.5);
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 0%;
+    font-size: 16px;
+  }
+  .galery {
+    height: 730px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 225px);
+  }
+  .item {
+    margin-top: 12px;
+    margin-left: 50px;
+    width: 75%;
+  }
+  .galery1 {
+    background-image: url(img/alpine.jpg);
+    background-size: cover;
+    border: solid #fff;
+  }
+  .galery2 {
+    background-image: url(img/beach.jpg);
+    background-size: cover;
+    border: solid #fff;
+  }
+  .galery3 {
+    background-image: url(img/castle.jpg);
+    background-size: cover;
+    border: solid #fff;
+  }
+  .galery4 {
+    background-image: url(img/river.jpg);
+    background-size: cover;
+    border: solid #fff;
+  }
+  .galery5 {
+    background-image: url(img/park.jpg);
+    background-size: cover;
+    border: solid #fff;
+  }
+  .galery6 {
+    background-image: url(img/road.jpg);
+    background-size: cover;
+    border: solid #fff;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .logo {
+    float: left;
+    font-size: 50px;
+    margin-left: 30px;
+  }
+  .barra {
+    float: right;
+    font-size: 35px;
+    padding: 10px;
+  }
+  .barra a:hover {
+    font-size: 40px;
+  }
+  .info {
+    color: aliceblue;
+    font-family: "Anton", sans-serif;
     letter-spacing: 1px;
     float: left;
     background-color: rgba(4, 0, 26, 0.5);
@@ -134,9 +725,142 @@ footer{
     margin-top: 55px;
     margin-left: 25%;
     font-size: 18px;
+  }
+  .plane {
+    height: 35%;
+    width: 45%;
+    background-image: url(img/plane.jpg);
+    background-size: cover;
+    margin-left: 30px;
+    float: left;
+    margin-top: 70px;
+    border: solid #fff;
+  }
+  .ship {
+    height: 35%;
+    width: 45%;
+    background-image: url(img/ship.jpg);
+    background-size: cover;
+    margin-right: 30px;
+    float: right;
+    margin-top: 70px;
+    border: solid #fff;
+  }
+  .call {
+    color: aliceblue;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+    float: right;
+    background-color: rgba(4, 0, 26, 0.5);
+    padding: 30px;
+    width: 55%;
+    margin-top: 225px;
+    font-size: 18px;
+  }
+  .promo1 {
+    height: 250px;
+    width: 375px;
+    background-image: url(img/promo1.jpg);
+    background-size: cover;
+    margin-left: 60px;
+    float: left;
+    margin-top: 120px;
+    border: solid #fff;
+  }
+  .promo2 {
+    height: 250px;
+    width: 375px;
+    background-image: url(img/promo2.jpg);
+    background-size: cover;
+    border: solid #fff;
+    margin-left: 60px;
+    margin-top: 90px;
+    float: left;
+  }
+  .description {
+    color: aliceblue;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+    float: left;
+    background-color: rgba(4, 0, 26, 0.5);
+    padding: 20px;
+    width: 60%;
+    height: auto;
+    margin-top: 55px;
+    margin-left: 25%;
+    font-size: 16px;
+  }
+  .galery {
+    height: 730px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 300px);
+  }
+  .item {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 95%;
+  }
+  .galery1 {
+    background-image: url(img/alpine.jpg);
+    background-size: cover;
+    border: solid #fff;
+  }
+  .galery2 {
+    background-image: url(img/beach.jpg);
+    background-size: cover;
+    border: solid #fff;
+  }
+  .galery3 {
+    background-image: url(img/castle.jpg);
+    background-size: cover;
+    border: solid #fff;
+  }
+  .galery4 {
+    background-image: url(img/river.jpg);
+    background-size: cover;
+    border: solid #fff;
+  }
+  .galery5 {
+    background-image: url(img/park.jpg);
+    background-size: cover;
+    border: solid #fff;
+  }
+  .galery6 {
+    background-image: url(img/road.jpg);
+    background-size: cover;
+    border: solid #fff;
+  }
 }
-
-.plane{
+@media only screen and (min-width: 1520px) {
+  .logo {
+    float: left;
+    font-size: 50px;
+    margin-left: 30px;
+  }
+  .barra {
+    float: right;
+    font-size: 35px;
+    padding: 10px;
+  }
+  .barra a:hover {
+    font-size: 40px;
+  }
+  .info {
+    color: aliceblue;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+    float: left;
+    background-color: rgba(4, 0, 26, 0.5);
+    padding: 20px;
+    width: 60%;
+    height: auto;
+    margin-top: 55px;
+    margin-left: 25%;
+    font-size: 18px;
+  }
+  .plane {
     height: 45%;
     width: 45%;
     background-image: url(img/plane.jpg);
@@ -145,9 +869,8 @@ footer{
     float: left;
     margin-top: 70px;
     border: solid #fff;
-}
-
-.ship{
+  }
+  .ship {
     height: 45%;
     width: 45%;
     background-image: url(img/ship.jpg);
@@ -156,11 +879,41 @@ footer{
     float: right;
     margin-top: 70px;
     border: solid #fff;
-}
-
-.description{
+  }
+  .call {
     color: aliceblue;
-    font-family: 'Anton', sans-serif;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+    float: right;
+    background-color: rgba(4, 0, 26, 0.5);
+    padding: 30px;
+    width: 60%;
+    margin-top: 275px;
+    font-size: 18px;
+  }
+  .promo1 {
+    height: 350px;
+    width: 550px;
+    background-image: url(img/promo1.jpg);
+    background-size: cover;
+    margin-left: 60px;
+    float: left;
+    margin-top: 60px;
+    border: solid #fff;
+  }
+  .promo2 {
+    height: 350px;
+    width: 550px;
+    background-image: url(img/promo2.jpg);
+    background-size: cover;
+    border: solid #fff;
+    margin-left: 60px;
+    margin-top: 60px;
+    float: left;
+  }
+  .description {
+    color: aliceblue;
+    font-family: "Anton", sans-serif;
     letter-spacing: 1px;
     float: left;
     background-color: rgba(4, 0, 26, 0.5);
@@ -170,691 +923,49 @@ footer{
     margin-top: 55px;
     margin-left: 25%;
     font-size: 16px;
-}
-
-.galery{
+  }
+  .galery {
     height: 730px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(2, 350px);
-}
-
-.item{
+  }
+  .item {
     margin-top: 10px;
-    margin-left: 50px;
-    width: 75%;
-}
-
-.galery1{
+    margin-left: 20px;
+    width: 85%;
+  }
+  .galery1 {
     background-image: url(img/alpine.jpg);
     background-size: cover;
     border: solid #fff;
-}
-.galery2{
+  }
+  .galery2 {
     background-image: url(img/beach.jpg);
     background-size: cover;
     border: solid #fff;
-}
-.galery3{
+  }
+  .galery3 {
     background-image: url(img/castle.jpg);
     background-size: cover;
     border: solid #fff;
-}
-.galery4{
+  }
+  .galery4 {
     background-image: url(img/river.jpg);
     background-size: cover;
     border: solid #fff;
-}
-.galery5{
+  }
+  .galery5 {
     background-image: url(img/park.jpg);
     background-size: cover;
     border: solid #fff;
-}
-.galery6{
+  }
+  .galery6 {
     background-image: url(img/road.jpg);
     background-size: cover;
     border: solid #fff;
+  }
 }
 
-.next{
-    color: aliceblue;
-    font-family: 'Anton', sans-serif;
-    letter-spacing: 1px;
-    float: left;
-    background-color: rgba(4, 0, 26, 0.5);
-    padding: 20px;
-    width: 55%;
-    height: auto;
-    margin-top: 55px;
-    margin-left: 25%;
-    font-size: 16px;
-}
-
-.map{
-    background-image: url(img/map.jpg);
-    height: 65%;
-    width: 65%;
-    background-size: cover;
-    float: right;
-    margin-top: 2%;
-    margin-right: 15%;
-    border: solid #fff;
-}
-
-.support{
-    color: aliceblue;
-    font-family: 'Anton', sans-serif;
-    letter-spacing: 1px;
-    float: left;
-    background-color: rgba(4, 0, 26, 0.5);
-    padding: 20px;
-    width: 55%;
-    height: auto;
-    margin-top: 55px;
-    margin-left: 25%;
-    font-size: 16px;
-}
-
-.forms{
-    color: aliceblue;
-    font-family: 'Anton', sans-serif;
-    letter-spacing: 1px;
-    float: left;
-    background-color: rgba(4, 0, 26, 0.5);
-    padding: 20px;
-    width: 30%;
-    height: auto;
-    margin-top: 55px;
-    margin-left: 15%;
-    font-size: 16px;
-    display: inline;
-}
-
-.africa{
-    height: 50%;
-    width: 50%;
-    background-image: url(img/africa.jpg);
-    background-size: cover;
-    border: solid #fff;
-    margin-right: 60px;
-    margin-top: 85px;
-    float: right;
-}
-
-@media only screen and (min-width:320px){
-    .logo{
-        float: left;
-        font-size: 25px;
-        margin-left: 10px;
-    }
-    
-    .barra{
-        float: right;
-        font-size: 15px;
-        padding: 10px;
-    }
-
-    .barra a:hover{
-        font-size: 16px;
-    }
-
-    .call{
-        color: aliceblue;
-        font-family: 'Anton', sans-serif;
-        letter-spacing: 1px;
-        float: right;
-        background-color: rgba(4, 0, 26, 0.5);
-        padding: 10px;
-        width: 100%;
-        margin-top: 25px;
-        font-size: 18px;
-    }
-    
-    .promo1{
-        height: 175px;
-        width: 300px;
-        background-image: url(img/promo1.jpg);
-        background-size: cover;
-        margin-left: 10px;
-        float: left;
-        margin-top: 20px;
-        border: solid #fff;
-    }
-    
-    .promo2{
-        height: 175px;
-        width: 300px;
-        background-image: url(img/promo2.jpg);
-        background-size: cover;
-        border: solid #fff;
-        margin-left: 10px;
-        margin-top: 20px;
-        float: left;
-    }
-
-    footer{
-        height: 95px;
-        width: 100%;
-        background-color: black;
-        font-size: 18px;
-        font-family: 'Anton', sans-serif;
-        color: aliceblue;
-        padding: 20px;
-    }
-
-    .copyright{
-        float: left;
-        font-size: 18px;
-    }
-
-    .description{
-        color: aliceblue;
-        font-family: 'Anton', sans-serif;
-        letter-spacing: 1px;
-        float: left;
-        background-color: rgba(4, 0, 26, 0.5);
-        padding: 10px;
-        width: 100%;
-        height: auto;
-        margin-top: 5px;
-        margin-left: 0%;
-        font-size: 16px;
-    }
-    
-    .galery{
-        height: 530px;
-        width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(3, 160px);
-    }
-    
-    .item{
-        margin-top: 10px;
-        margin-left: 5px;
-        width: 95%;
-    }
-    
-    .galery1{
-        background-image: url(img/alpine.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    .galery2{
-        background-image: url(img/beach.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    .galery3{
-        background-image: url(img/castle.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    .galery4{
-        background-image: url(img/river.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    .galery5{
-        background-image: url(img/park.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    .galery6{
-        background-image: url(img/road.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    
-}
-
-@media only screen and (min-width:480px){
-    .logo{
-        float: left;
-        font-size: 35px;
-        margin-left: 10px;
-    }
-    
-    .barra{
-        float: right;
-        font-size: 20px;
-        padding: 10px;
-    }
-
-    .barra a:hover{
-        font-size: 22px;
-    }
-
-    .call{
-        color: aliceblue;
-        font-family: 'Anton', sans-serif;
-        letter-spacing: 1px;
-        float: right;
-        background-color: rgba(4, 0, 26, 0.5);
-        padding: 10px;
-        width: 100%;
-        margin-top: 25px;
-        font-size: 18px;
-    }
-    
-    .promo1{
-        height: 175px;
-        width: 350px;
-        background-image: url(img/promo1.jpg);
-        background-size: cover;
-        margin-left: 60px;
-        float: left;
-        margin-top: 60px;
-        border: solid #fff;
-    }
-    
-    .promo2{
-        height: 175px;
-        width: 350px;
-        background-image: url(img/promo2.jpg);
-        background-size: cover;
-        border: solid #fff;
-        margin-left: 60px;
-        margin-top: 30px;
-        float: left;
-    }
-
-    .description{
-        color: aliceblue;
-        font-family: 'Anton', sans-serif;
-        letter-spacing: 1px;
-        float: left;
-        background-color: rgba(4, 0, 26, 0.5);
-        padding: 20px;
-        width: 100%;
-        height: auto;
-        margin-top: 5px;
-        margin-left: 0%;
-        font-size: 16px;
-    }
-    
-    .galery{
-        height: 730px;
-        width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(3, 210px);
-    }
-    
-    .item{
-        margin-top: 10px;
-        margin-left: 30px;
-        width: 75%;
-    }
-    
-    .galery1{
-        background-image: url(img/alpine.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    .galery2{
-        background-image: url(img/beach.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    .galery3{
-        background-image: url(img/castle.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    .galery4{
-        background-image: url(img/river.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    .galery5{
-        background-image: url(img/park.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    .galery6{
-        background-image: url(img/road.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    
-}
-
-@media only screen and (min-width:720px){
-    .logo{
-        float: left;
-        font-size: 45px;
-        margin-left: 20px;
-    }
-    
-    .barra{
-        float: right;
-        font-size: 30px;
-        padding: 15px;
-    }
-
-    .barra a:hover{
-        font-size: 35px;
-    }
-
-    .call{
-        color: aliceblue;
-        font-family: 'Anton', sans-serif;
-        letter-spacing: 1px;
-        float: right;
-        background-color: rgba(4, 0, 26, 0.5);
-        padding: 10px;
-        width: 100%;
-        margin-top: 25px;
-        font-size: 18px;
-    }
-    
-    .promo1{
-        height: 225px;
-        width: 600px;
-        background-image: url(img/promo1.jpg);
-        background-size: cover;
-        margin-left: 60px;
-        float: left;
-        margin-top: 60px;
-        border: solid #fff;
-    }
-    
-    .promo2{
-        height: 225px;
-        width: 600px;
-        background-image: url(img/promo2.jpg);
-        background-size: cover;
-        border: solid #fff;
-        margin-left: 60px;
-        margin-top: 30px;
-        float: left;
-    }
-
-    .description{
-        color: aliceblue;
-        font-family: 'Anton', sans-serif;
-        letter-spacing: 1px;
-        float: left;
-        background-color: rgba(4, 0, 26, 0.5);
-        padding: 20px;
-        width: 100%;
-        height: auto;
-        margin-top: 5px;
-        margin-left: 0%;
-        font-size: 16px;
-    }
-    
-    .galery{
-        height: 730px;
-        width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(3, 225px);
-    }
-    
-    .item{
-        margin-top: 12px;
-        margin-left: 50px;
-        width: 75%;
-    }
-    
-    .galery1{
-        background-image: url(img/alpine.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    .galery2{
-        background-image: url(img/beach.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    .galery3{
-        background-image: url(img/castle.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    .galery4{
-        background-image: url(img/river.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    .galery5{
-        background-image: url(img/park.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    .galery6{
-        background-image: url(img/road.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    
-    
-}
-
-@media only screen and (min-width:1024px){
-    .logo{
-        float: left;
-        font-size: 50px;
-        margin-left: 30px;
-    }
-    
-    .barra{
-        float: right;
-        font-size: 35px;
-        padding: 10px;
-    }
-
-    .barra a:hover{
-        font-size: 40px;
-    }
-
-    .call{
-        color: aliceblue;
-        font-family: 'Anton', sans-serif;
-        letter-spacing: 1px;
-        float: right;
-        background-color: rgba(4, 0, 26, 0.5);
-        padding: 30px;
-        width: 55%;
-        margin-top: 225px;
-        font-size: 18px;
-    }
-    
-    .promo1{
-        height: 250px;
-        width: 375px;
-        background-image: url(img/promo1.jpg);
-        background-size: cover;
-        margin-left: 60px;
-        float: left;
-        margin-top: 120px;
-        border: solid #fff;
-    }
-    
-    .promo2{
-        height: 250px;
-        width: 375px;
-        background-image: url(img/promo2.jpg);
-        background-size: cover;
-        border: solid #fff;
-        margin-left: 60px;
-        margin-top: 90px;
-        float: left;
-    }
-    .description{
-        color: aliceblue;
-        font-family: 'Anton', sans-serif;
-        letter-spacing: 1px;
-        float: left;
-        background-color: rgba(4, 0, 26, 0.5);
-        padding: 20px;
-        width: 60%;
-        height: auto;
-        margin-top: 55px;
-        margin-left: 25%;
-        font-size: 16px;
-    }
-    
-    .galery{
-        height: 730px;
-        width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: repeat(2, 300px);
-    }
-    
-    .item{
-        margin-top: 10px;
-        margin-left: 10px;
-        width: 95%;
-    }
-    
-    .galery1{
-        background-image: url(img/alpine.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    .galery2{
-        background-image: url(img/beach.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    .galery3{
-        background-image: url(img/castle.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    .galery4{
-        background-image: url(img/river.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    .galery5{
-        background-image: url(img/park.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    .galery6{
-        background-image: url(img/road.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    
-    
-}
-
-@media only screen and (min-width:1520px){
-    .logo{
-        float: left;
-        font-size: 50px;
-        margin-left: 30px;
-    }
-    
-    .barra{
-        float: right;
-        font-size: 35px;
-        padding: 10px;
-    }
-
-    .barra a:hover{
-        font-size: 40px;
-    }
-
-    .call{
-        color: aliceblue;
-        font-family: 'Anton', sans-serif;
-        letter-spacing: 1px;
-        float: right;
-        background-color: rgba(4, 0, 26, 0.5);
-        padding: 30px;
-        width: 60%;
-        margin-top: 275px;
-        font-size: 18px;
-    }
-    
-    .promo1{
-        height: 350px;
-        width: 550px;
-        background-image: url(img/promo1.jpg);
-        background-size: cover;
-        margin-left: 60px;
-        float: left;
-        margin-top: 60px;
-        border: solid #fff;
-    }
-    
-    .promo2{
-        height: 350px;
-        width: 550px;
-        background-image: url(img/promo2.jpg);
-        background-size: cover;
-        border: solid #fff;
-        margin-left: 60px;
-        margin-top: 60px;
-        float: left;
-    }
-
-    .description{
-        color: aliceblue;
-        font-family: 'Anton', sans-serif;
-        letter-spacing: 1px;
-        float: left;
-        background-color: rgba(4, 0, 26, 0.5);
-        padding: 20px;
-        width: 60%;
-        height: auto;
-        margin-top: 55px;
-        margin-left: 25%;
-        font-size: 16px;
-    }
-    
-    .galery{
-        height: 730px;
-        width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: repeat(2, 350px);
-    }
-    
-    .item{
-        margin-top: 10px;
-        margin-left: 20px;
-        width: 85%;
-    }
-    
-    .galery1{
-        background-image: url(img/alpine.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    .galery2{
-        background-image: url(img/beach.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    .galery3{
-        background-image: url(img/castle.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    .galery4{
-        background-image: url(img/river.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    .galery5{
-        background-image: url(img/park.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    .galery6{
-        background-image: url(img/road.jpg);
-        background-size: cover;
-        border: solid #fff;
-    }
-    
-    
-}
+/*# sourceMappingURL=estilos.css.map */
