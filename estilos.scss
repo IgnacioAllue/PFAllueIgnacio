@@ -442,6 +442,30 @@ footer{
         border: solid #fff;
     }
     
+    .next{
+        color: aliceblue;
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 1px;
+        float: left;
+        background-color: rgba(4, 0, 26, 0.5);
+        padding: 20px;
+        width: 100%;
+        height: auto;
+        margin-top: 15px;
+        margin-left: 0%;
+        font-size: 16px;
+    }
+    
+    .map{
+        background-image: url(img/map.jpg);
+        height: 20%;
+        width: 90%;
+        background-size: cover;
+        float: left;
+        margin-top: 30%;
+        margin-left: 10px;
+        border: solid #fff;
+    }
 }
 
 @media only screen and (min-width:480px){
@@ -589,6 +613,30 @@ footer{
         border: solid #fff;
     }
     
+    .next{
+        color: aliceblue;
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 1px;
+        float: left;
+        background-color: rgba(4, 0, 26, 0.5);
+        padding: 10px;
+        width: 90%;
+        height: auto;
+        margin-top: 25px;
+        margin-left: 25px;
+        font-size: 16px;
+    }
+    
+    .map{
+        background-image: url(img/map.jpg);
+        height: 35%;
+        width: 95%;
+        background-size: cover;
+        float: left;
+        margin-top: 20%;
+        margin-right: 0%;
+        border: solid #fff;
+    }
 }
 
 @media only screen and (min-width:720px){
@@ -736,7 +784,30 @@ footer{
         border: solid #fff;
     }
     
+    .next{
+        color: aliceblue;
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 1px;
+        float: left;
+        background-color: rgba(4, 0, 26, 0.5);
+        padding: 20px;
+        width: 55%;
+        height: auto;
+        margin-top: 55px;
+        margin-left: 25%;
+        font-size: 16px;
+    }
     
+    .map{
+        background-image: url(img/map.jpg);
+        height: 35%;
+        width: 97%;
+        background-size: cover;
+        float: left;
+        margin-top: 10%;
+        margin-right: 0%;
+        border: solid #fff;
+    }
 }
 
 @media only screen and (min-width:1024px){
@@ -884,7 +955,30 @@ footer{
         border: solid #fff;
     }
     
+    .next{
+        color: aliceblue;
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 1px;
+        float: left;
+        background-color: rgba(4, 0, 26, 0.5);
+        padding: 20px;
+        width: 75%;
+        height: auto;
+        margin-top: 55px;
+        margin-left: 15%;
+        font-size: 16px;
+    }
     
+    .map{
+        background-image: url(img/map.jpg);
+        height: 65%;
+        width: 97%;
+        background-size: cover;
+        float: left;
+        margin-top: 2%;
+        margin-right: 0%;
+        border: solid #fff;
+    }
 }
 
 @media only screen and (min-width:1520px){
@@ -1031,5 +1125,30 @@ footer{
         background-image: url(img/road.jpg);
         background-size: cover;
         border: solid #fff;
-    }   
+    }
+
+    .next{
+        color: aliceblue;
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 1px;
+        float: left;
+        background-color: rgba(4, 0, 26, 0.5);
+        padding: 20px;
+        width: 55%;
+        height: auto;
+        margin-top: 55px;
+        margin-left: 25%;
+        font-size: 16px;
+    }
+    
+    .map{
+        background-image: url(img/map.jpg);
+        height: 65%;
+        width: 65%;
+        background-size: cover;
+        float: right;
+        margin-top: 2%;
+        margin-right: 15%;
+        border: solid #fff;
+    }
 }
