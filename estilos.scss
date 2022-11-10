@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 header{
     height: 90px;
     width: 100%;
@@ -24,25 +25,24 @@ header{
     float: right;
     font-size: 35px;
     padding: 10px;
-}
-
-.barra ul{
-    list-style: none;
-}
-
-.barra ul li{
-    display: inline-block;
-}
-
-.barra a{
-    text-decoration: none;
-    color: greenyellow;
-}
-
-.barra a:hover{
-    color: aliceblue;
-    font-size: 40px;
-    transition: all 1s;
+    & ul{
+        list-style: none;
+    }
+    
+    & ul li{
+        display: inline-block;
+    }
+    
+    & a{
+        text-decoration: none;
+        color: greenyellow;
+    }
+    
+    & a:hover{
+        color: aliceblue;
+        font-size: 40px;
+        transition: all 1s;
+    }
 }
 
 main{
@@ -293,10 +293,9 @@ footer{
         float: right;
         font-size: 15px;
         padding: 10px;
-    }
-
-    .barra a:hover{
-        font-size: 16px;
+        & a:hover{
+            font-size: 16px;
+        }
     }
 
     .call{
@@ -519,10 +518,9 @@ footer{
         float: right;
         font-size: 20px;
         padding: 10px;
-    }
-
-    .barra a:hover{
-        font-size: 22px;
+        & a:hover{
+            font-size: 22px;
+        }
     }
 
     .call{
@@ -730,10 +728,9 @@ footer{
         float: right;
         font-size: 30px;
         padding: 15px;
-    }
-
-    .barra a:hover{
-        font-size: 35px;
+        & a:hover{
+            font-size: 35px;
+        }
     }
 
     .call{
@@ -941,10 +938,9 @@ footer{
         float: right;
         font-size: 35px;
         padding: 10px;
-    }
-
-    .barra a:hover{
-        font-size: 40px;
+        & a:hover{
+            font-size: 40px;
+        }
     }
 
     .info{
@@ -1152,10 +1148,9 @@ footer{
         float: right;
         font-size: 35px;
         padding: 10px;
-    }
-
-    .barra a:hover{
-        font-size: 40px;
+        & a:hover{
+            font-size: 40px;
+        }
     }
 
     .info{
